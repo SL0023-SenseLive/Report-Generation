@@ -525,7 +525,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Route for /report
 app.get('/report', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'report.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 const PORT = 8080;
