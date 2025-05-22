@@ -528,7 +528,7 @@ app.get('/report', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'report.html'));
 });
 
-const PORT = 3000;
+const PORT = 8080;
 app.listen(PORT, () => {
   console.log(`Report server running on http://localhost:${PORT}`);
 });
